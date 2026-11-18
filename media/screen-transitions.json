@@ -1,6 +1,17 @@
 {
   "app": "busybar-tumbler-draw",
-  "sha256": "2791fdf6ef54625beb582e8cc6c337244d9e52296939be48ee455e3dec5afab5",
+  "sha256": "b81e88c72912710bd87a1dc6fbd88140555993b575e8ec63be83e0c85e3c759a",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.tumblerdraw",
+    "sha256": "b81e88c72912710bd87a1dc6fbd88140555993b575e8ec63be83e0c85e3c759a",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 89.9,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
   "firmware": "1.3.1",
   "cell": 16,
   "lit": 14,
