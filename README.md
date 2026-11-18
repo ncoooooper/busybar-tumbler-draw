@@ -2,6 +2,20 @@
 
 Draw a number or a name. The digits roll like a combination lock, settle from left to right, then reveal the selection in your chosen color.
 
+## Screen transitions
+
+Start a draw and follow the changing digits until the lock settles on the selected entry.
+
+![Tumbler Draw front display. Start a draw and follow the changing digits until the lock settles on the selected entry.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Tumbler Draw rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Setup
 
 In **Setup**, leave **Local companion URL** blank for an offline draw. Enter an integer from 1 to 9,999,999 in **Highest number**. For names, put up to 240 characters such as `Robin|Avery|Kim` in **Names separated by |**. A list overrides the numeric range. Set **Result color in hex** to a six-digit color such as `#63DF91`. Restart the app after changing settings. For longer lists, the example companion reads one name per line (up to 150 entries).
@@ -36,7 +50,7 @@ Install BUSY Bar Emulator and open it. From this repository run the following co
 ~/.busy-emulator/bin/busy-emulator dev --once
 ```
 
-The recordings show device controls on emulator firmware. Each display pixel is enlarged to a 9 × 9 square.
+The recordings show device controls on emulator firmware. Each LED occupies a 16 × 16 cell with a black border.
 
 [YouTube video statistics](https://developers.google.com/youtube/v3/docs/videos#statistics.commentCount).
 

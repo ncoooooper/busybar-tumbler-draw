@@ -2,7 +2,7 @@
   "format_version": 1,
   "id": "io.ncoooooper.tumblerdraw",
   "name": "Tumbler Draw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "api_version": "27.12.0",
   "description": "Draw a number or name with a rolling combination lock.",
   "author": "ncoooooper"
