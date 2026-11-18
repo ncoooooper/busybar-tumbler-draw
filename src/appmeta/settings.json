@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "bridge": {
+      "type": "string",
+      "label": "Local companion URL",
+      "default": "",
+      "max_length": 150
+    },
+    "maximum": {
+      "type": "string",
+      "label": "Highest number",
+      "default": "100",
+      "max_length": 7
+    },
+    "entries": {
+      "type": "string",
+      "label": "Names separated by |",
+      "default": "",
+      "max_length": 240
+    },
+    "color": {
+      "type": "string",
+      "label": "Result color in hex",
+      "default": "#6AE6A4",
+      "max_length": 7
+    }
+  }
+}
